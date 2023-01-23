@@ -1,0 +1,112 @@
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*pictures*/
+.pictures{
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+.main-pic {
+    width: 60%;
+    margin-left: 20px;
+}
+  
+.sub-pics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+}
+  
+.sub-pics img {
+    width: 380px;
+    margin-right: 20px;
+}
+
+/*about us*/
+.aboutUs{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:40px;
+}
+.aboutUs p{
+    background-color: white;
+    max-width: 300px;
+    padding: 20px;
+}
+.aboutUs p:nth-child(1){
+    border-radius: 20px 25% 20px 25%;
+}
+.aboutUs p:nth-child(2){
+    border-radius: 25% 20px 25% 20px ;
+}
+
+/*specifikacije*/
+article{
+    display: flex;
+    gap:10px;
+}
+article div{
+    background-color: white;
+    max-width: 300px;
+    padding: 10px 10px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+/*radno vrijeme*/
+.workingHours{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px ;
+    text-align: center;
+}
+.radnoVrijeme{
+    font-size: larger;
+    font-weight: bold;
+}
+
+@media(max-width: 650px){
+    .aboutUs{
+        display: flex;
+        flex-direction: column;
+        gap:0px;
+    }
+    .aboutUs p:nth-child(1){
+        border-radius: 25% ;
+    }
+    .aboutUs p:nth-child(2){
+        border-radius: 25% ;
+    }
+    
+}
+@media(max-width: 1186px) {
+    .pictures{
+        width: 60%;
+        flex-direction: column;
+    }
+    .main-pic {
+        width: 80%;
+        margin: 20px auto;
+    }
+    .sub-pics img {
+        width: 80%;
+        margin-right: 0;
+    }
+}
+  

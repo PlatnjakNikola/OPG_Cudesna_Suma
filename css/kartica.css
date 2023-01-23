@@ -66,27 +66,28 @@
     background: linear-gradient(180deg, #3CB465 0%, #31D9D9 100%);
     overflow: hidden;
     border-radius: 16px;
-    padding: 4px 8px;
+    padding: 2px 0 2px 8px;
     display: flex;
     align-items: center;
     border:none;
+  }
+  .button:hover {background: #26d6d6}
+  .button:active {
+    background-color: #2bbebe;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
   }
   .button-text {
     font-size: 10px;
     font-weight: 600;
     line-height: normal;
     color: white;
-    margin-right: 10px;
+    margin-right: 5px;
   }
-  .material-symbolsgarden-cart-rounded {
-    padding: 2px;
+  .cart {
     display: flex;
     align-items: center;
-    width: 14px;
-    height: 12px;
   }
-  .vector {
-    flex: 1;
-    align-self: stretch;
-    object-fit: cover;
+  .tacke{
+    width: 25px;
   }

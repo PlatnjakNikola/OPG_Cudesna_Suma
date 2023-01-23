@@ -2,12 +2,8 @@ footer {
     padding: 12px 20px;
     background-color: white;
     color: black;
-    display: flex;                  
-    flex-direction: row;            
-    flex-wrap: nowrap;             
-    justify-content: space-between; 
+    display: flex;     
     align-items: center;
-    
 }
 footer h5{
     margin:4px
@@ -17,7 +13,7 @@ footer > div {
     height: 100%;
 }
 .footer_info{
-font-size: 0.75rem;
+    font-size: 0.75rem;
 }
 /*UVJETI KUPNJE*/
 .UvjetiKupnje ul{
@@ -62,10 +58,10 @@ font-size: 0.75rem;
 @media(max-width: 900px){
     footer{
         flex-direction: column;
-        justify-content: center;
     }
     footer > div {
         width: 100%;
+        
     }
     .Media {
         align-items:center;
@@ -77,13 +73,21 @@ font-size: 0.75rem;
         flex-direction: column;
         padding-left: 0;
         text-align: center;
+        margin-bottom: 15px;
+    }
+    .kontakt{
+        margin-bottom: 15px;
     }
     footer ul{
         margin-top: 0;
         padding-inline-start: 0;
+        padding: 0;
     }
-    .socialMedia{
-        margin-left:  0;
-        margin-right:  0;
+    
+    .footer_info{
+        text-align: center;
+    }
+    .UvjetiKupnje ul{
+        padding-left: 0;
     }
 }

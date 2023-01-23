@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/button.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/socialMedia_footer.css">
+    <link rel="stylesheet" href="css/form.css">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css'>
 </head>
 <body>
@@ -36,7 +37,7 @@
                     <a class="linkNAV" href="proizvodi.html">Proizvodi</a>
                 </li>
                 <li class="nav-list-item">
-                    <a class="linkNAV current" href="">Kontakt</a>
+                    <a class="current">Kontakt</a>
                 </li>
                 <li class="nav-list-item">
                     <a class="linkNAV" href="O_nama.html">O nama</a>
@@ -47,7 +48,22 @@
 
     </nav>
     <main >
-        <p>kontakt</p>
+        <section>
+                <img src="img/posta.webp">
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Name" required>
+                
+                <label for="Email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                
+                <label for="text">Text:</label>
+                <textarea id="text" name="text" placeholder="Message" required></textarea>
+                
+                <button type="submit">SEND EMAIL</button>
+              </form>              
+            
+        </section>
     </main>
 
     <footer>
@@ -81,10 +97,12 @@
             <ul class ="socialMedia">
                 <li><a href="#"><i class="fa-brands fa-instagram instagram"></i></a></li>
                 <li><a href="#"><i class="fa-brands fa-whatsapp whatsapp"></i></a></li>
-                <li class="facebook"><a href="#"><img src="img/square-facebook.svg" width="42.2px" alt="Site Logo"> </a></li>
+                <li class="facebook"><a href="#"><i class="fa-brands fa-facebook-square facebook"></i></a></li>
             </ul>
             
         </div>
+        
+    </footer>
 </body>
 </html>
 
