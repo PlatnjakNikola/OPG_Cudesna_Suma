@@ -122,4 +122,10 @@ li.nav-list-item {
 	}
 }
 
+@media (max-width: 655px) {
+    .logo{
+        display: none;
+    }
+}
+
 
