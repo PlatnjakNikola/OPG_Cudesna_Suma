@@ -1,0 +1,122 @@
+nav{
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1rem 0;
+}
+.nav-logo-wrapper img{
+    padding-right: 5px;
+    width: 80px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 100%;
+}
+.nav-logo-wrapper{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    align-items: center;
+}
+
+.nav-list-wrapper {
+    display: none;
+    width: 100%;
+    font-size: 1.5em;
+}
+.nav-list-wrapper.open {
+    display: flex;
+    flex-direction: column;  
+    background-color: transparent;
+    text-align: center;
+    
+}
+
+/* Elements inside list*/
+ul.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    
+}
+li.nav-list-item {
+    display: block;
+    flex: 0 0 100%;
+    width: 100%;
+    margin-top: 2rem;
+    font-weight: bold;
+}
+.linkNAV {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    display: inline-block;
+}
+.linkNAV::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5px;
+    background-color: #fff;
+    border-radius: 4px;
+    scale: 0 1;
+    transform-origin: left;
+    transition: scale 0.5s;
+}
+.linkNAV:hover::before {
+    scale: 1;
+}
+
+
+/* Navigation Toggler */
+.nav-toggler-wrapper {
+	margin-left: auto;
+	padding-right: 3rem;
+    width: 80px;
+}
+
+@media (min-width: 992px) and (max-width: 1121px){
+    nav{
+        display: flex;
+        flex-wrap:unset;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem 2rem;
+    }
+    .nav-list-wrapper{
+        margin-left: 0;
+    }
+    li.nav-list-item {
+        margin-top: 1rem;
+    }
+}
+@media(min-width: 1122px){
+    .nav-list-wrapper{
+        margin-left: auto;
+    }
+    
+}
+@media (min-width: 992px) {
+    
+    .nav-list-wrapper{
+        display: block;
+        width: auto;
+    }
+    li.nav-list-item {
+        flex: 0 0 auto;
+        margin-bottom: 0;
+        width: auto;
+        margin-top: 0;
+    }
+    li.nav-list-item:not(:first-of-type) {
+        padding-left: 4rem;
+    }
+    .nav-toggler-wrapper {
+		display: none;
+	}
+}
+
+

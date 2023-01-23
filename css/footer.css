@@ -1,0 +1,89 @@
+footer {
+    padding: 12px 20px;
+    background-color: white;
+    color: black;
+    display: flex;                  
+    flex-direction: row;            
+    flex-wrap: nowrap;             
+    justify-content: space-between; 
+    align-items: center;
+    
+}
+footer h5{
+    margin:4px
+}
+footer > div {
+    width: 33.33%;
+    height: 100%;
+}
+.footer_info{
+font-size: 0.75rem;
+}
+/*UVJETI KUPNJE*/
+.UvjetiKupnje ul{
+    list-style: none;
+    padding-left: 1em;
+}
+.UvjetiKupnje a{
+    color: black;
+    font-weight: bold;
+}
+
+/*kontakt*/
+.kontakt, .mobitel, .mail{
+    font-weight: bold;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.mobitel h3, .UvjetiKupnje h3{
+    margin-bottom: 0;
+}
+.mail h3{
+    margin-bottom: 0;
+    margin-top: 0px;
+}
+.mobitel p, .mail p{
+    margin-top: 0;
+}
+
+/*social media*/
+.Media {
+    display:flex;
+    flex-direction: column;
+    align-items:flex-end;
+}
+
+.Media .facebook{
+    margin-right: 0;
+
+}
+@media(max-width: 900px){
+    footer{
+        flex-direction: column;
+        justify-content: center;
+    }
+    footer > div {
+        width: 100%;
+    }
+    .Media {
+        align-items:center;
+        justify-content: center;
+    }
+    .UvjetiKupnje{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 0;
+        text-align: center;
+    }
+    footer ul{
+        margin-top: 0;
+        padding-inline-start: 0;
+    }
+    .socialMedia{
+        margin-left:  0;
+        margin-right:  0;
+    }
+}

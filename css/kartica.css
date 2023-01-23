@@ -1,0 +1,92 @@
+.card {
+    width: 230px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .image {
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px 16px 0px 0px;
+    flex: 1;
+    align-self: stretch;
+  }
+  .info-container {
+    background-color: white;
+    border-radius: 0px 0px 16px 16px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 80px;
+    align-self: stretch;
+    padding-bottom:20px;
+  }
+  .article-name {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    color: black;
+    margin:0px;
+  }
+  .article-info {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .description {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: normal;
+    color: dimgray;
+    width:134px;
+    margin:0px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .cta-container {
+    display: flex;
+    flex-direction: column;
+    gap:4;
+    padding: 0;
+    width:70px;
+  }
+  .price {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    color: black;
+    align-self: stretch;
+    text-align: right;
+    margin:0px;
+  }
+  .button {
+    background: linear-gradient(180deg, #3CB465 0%, #31D9D9 100%);
+    overflow: hidden;
+    border-radius: 16px;
+    padding: 4px 8px;
+    display: flex;
+    align-items: center;
+    border:none;
+  }
+  .button-text {
+    font-size: 10px;
+    font-weight: 600;
+    line-height: normal;
+    color: white;
+    margin-right: 10px;
+  }
+  .material-symbolsgarden-cart-rounded {
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    width: 14px;
+    height: 12px;
+  }
+  .vector {
+    flex: 1;
+    align-self: stretch;
+    object-fit: cover;
+  }
