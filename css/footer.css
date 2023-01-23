@@ -55,7 +55,7 @@ footer > div {
     margin-right: 0;
 
 }
-@media(max-width: 900px){
+@media screen and (max-width: 900px){
     footer{
         flex-direction: column;
     }
