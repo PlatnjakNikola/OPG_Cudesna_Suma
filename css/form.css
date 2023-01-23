@@ -57,7 +57,7 @@ textarea{
     resize: vertical;
 }
 @media (max-width: 1068px){
-    img{
+    .pismoSlika{
         display: none;
     }
 }
