@@ -80,7 +80,7 @@ li.nav-list-item {
     width: 80px;
 }
 
-@media (min-width: 992px) and (max-width: 1167px){
+@media screen and (min-width: 992px) and (max-width: 1167px){
     nav{
         display: flex;
         flex-wrap:unset;
@@ -96,13 +96,13 @@ li.nav-list-item {
         margin-top: 1rem;
     }
 }
-@media(min-width: 1168px){
+@media screen and (min-width: 1168px){
     .nav-list-wrapper{
         margin-left: auto;
     }
     
 }
-@media (min-width: 992px) {
+@media screen and (min-width: 992px) {
     
     .nav-list-wrapper{
         display: block;
