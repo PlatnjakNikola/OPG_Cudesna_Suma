@@ -6,10 +6,10 @@
     align-items: flex-start;
   }
   .image {
+    height: 173px;
     background-size: cover;
     background-position: center;
     border-radius: 16px 16px 0px 0px;
-    flex: 1;
     align-self: stretch;
   }
   .info-container {
