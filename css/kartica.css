@@ -1,3 +1,7 @@
+.proizvodi-wrapper{
+    margin:0 auto;
+    max-width: 1400px
+}
 .card {
     width: 230px;
     border-radius: 16px;
