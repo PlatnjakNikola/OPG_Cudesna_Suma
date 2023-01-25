@@ -1,0 +1,95 @@
+.proizvodi-wrapper{
+    margin:0 auto;
+    max-width: 1400px;
+}
+.card {
+    width: 230px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  a, .image{
+    height: 173px;
+    width: 230px;
+    border-radius: 16px 16px 0px 0px;
+  }
+  .info-container {
+    background-color: white;
+    border-radius: 0px 0px 16px 16px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 80px;
+    align-self: stretch;
+    padding-bottom:20px;
+  }
+  .article-name {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    color: black;
+    margin:0px;
+  }
+  .article-info {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .description {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: normal;
+    color: dimgray;
+    width:134px;
+    margin:0px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .cta-container {
+    display: flex;
+    flex-direction: column;
+    gap:4;
+    padding: 0;
+    width:70px;
+  }
+  .price {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    color: black;
+    align-self: stretch;
+    text-align: right;
+    margin:0px;
+  }
+  .button {
+    background: linear-gradient(180deg, #3CB465 0%, #31D9D9 100%);
+    overflow: hidden;
+    border-radius: 16px;
+    padding: 2px 0 2px 8px;
+    display: flex;
+    align-items: center;
+    border:none;
+  }
+  .button:hover {background: #26d6d6}
+  .button:active {
+    background-color: #2bbebe;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .button-text {
+    font-size: 10px;
+    font-weight: 600;
+    line-height: normal;
+    color: white;
+    margin-right: 5px;
+  }
+  .cart {
+    display: flex;
+    align-items: center;
+  }
+  .tacke{
+    width: 25px;
+  }
